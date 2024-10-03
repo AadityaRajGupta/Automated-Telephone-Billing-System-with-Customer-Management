@@ -1,7 +1,7 @@
 import os
 from tabulate import tabulate
 import mysql.connector as c
-d=c.connect(user='root', password='aaditya',host='localhost',auth_plugin='mysql_native_password',database='BILL')
+d=c.connect(user='root', password='#######',host='localhost',auth_plugin='mysql_native_password',database='BILL')
 cur=d.cursor()
 
 os.system('cls')
